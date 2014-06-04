@@ -12,4 +12,15 @@ import Auxilios.*;
  */
 public class Contacto extends Empresa{
     
+     public void  VerDatos (String nombreEmpresa, String nit, int telefono, String direccion, String email) {
+         
+        this.nombreEmpresa = nombreEmpresa;
+        this.nit = nit;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.email = email;
+    }
+    
+    
+    
 }
